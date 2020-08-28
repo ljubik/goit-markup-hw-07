@@ -1,0 +1,15 @@
+@import "./base/normalize.css";
+@import "./utils/variables";
+@import "./base/stand";
+@import "./layaut/header";
+@import "./components/nav";
+@import "./components/logo";
+@import "./components/menu";
+@import "./layaut/hero";
+@import "./components/btn-hero";
+@import "./layaut/benefits";
+@import "./components/rechtchangel";
+
+html {
+  color: red;
+}
