@@ -35,6 +35,10 @@ footer {
   padding-top: 72px;
   width: 25%;
   align-items: baseline;
+
+  svg {
+    color: $icon-color;
+  }
 }
 
 .social .team-list {

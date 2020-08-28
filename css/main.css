@@ -768,6 +768,10 @@ footer {
           align-items: baseline;
 }
 
+.foot-social svg {
+  color: #afb1b8;
+}
+
 .social .team-list {
   display: -webkit-box;
   display: -ms-flexbox;
