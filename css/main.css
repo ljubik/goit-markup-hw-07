@@ -727,8 +727,10 @@ svg:hover, svg:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: border 1s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 1s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-logo svg {
@@ -746,19 +748,18 @@ svg:hover, svg:focus {
 .link-clients:hover,
 .link-clients:focus {
   border: 1px solid #2196f3;
-  color: #2196f3;
-  fill: #2196f3;
   opacity: 1;
   -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition: color 1s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 1s cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: border 1s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 1s cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: #afb1b8 1s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: #afb1b8 1s cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-logo svg:hover,
+.clients-logo svg:focus {
+  color: #2196f3;
 }
 
 footer {
