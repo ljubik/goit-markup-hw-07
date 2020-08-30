@@ -4,6 +4,7 @@
 }
 
 .btn {
+  font-family: "Roboto", sans-serif;
   background: $bkg-lite-color;
   border-radius: 4px;
 
@@ -24,6 +25,8 @@
   border-radius: 4px;
   border: none;
   border-color: $bkg-lite-color;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
